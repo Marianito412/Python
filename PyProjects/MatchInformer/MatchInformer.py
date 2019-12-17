@@ -6,5 +6,10 @@ driver = webdriver.Chrome()
 driver.get(url)
 
 league = driver.find_element_by_class_name("imso_mh__pst-m-stts-l").text
-print(league)
+team1 = driver.find_element_by_xpath('//div[@data-df-team-mid = "/m/011v3"]').text
+team2 = driver.find_element_by_xpath('//div[@data-df-team-mid = "/m/0hvgt"]').text 
+score1 = driver.find_element_by_class_name("imso_mh__l-tm-sc").text #imso_mh__l-tm-sc imso_mh__scr-it imso-light-font
+score2 = driver.find_element_by_class_name("imso_mh__r-tm-sc").text              #imso_mh__r-tm-sc imso_mh__scr-it imso-light-font
+print(str(team1)+ "-" + str(team2))
+print(score1 + "-" + score2)
 driver.close()
