@@ -7,3 +7,4 @@ driver.get(url)
 
 league = driver.find_element_by_class_name("imso_mh__pst-m-stts-l").text
 print(league)
+driver.close()
