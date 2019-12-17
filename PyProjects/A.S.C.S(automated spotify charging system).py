@@ -3,7 +3,7 @@ from selenium import webdriver
 driver = webdriver.Chrome()
 driver.get('https://web.whatsapp.com/')
 
-names = ["S", "R", "S",]
+names = ["S", "R", "S"]
 msg = "Spotify. couta grupal: 8.99 dolares. Couta por persona: 800 colones(Este es un mensaje automatizado,no responder solo obedecer)"
 i = 0
 
