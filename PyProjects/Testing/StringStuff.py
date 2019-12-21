@@ -11,4 +11,15 @@ def center2():
     for i in range(4):
         string = string + "\n" + '{:-^50}'.format(str(i))
     print(string)
-center2()
+
+
+def hello(nam):
+    return nam
+
+def asdf(name):
+    return "Hello "+name
+
+print(asdf("Mariano"))
+print(prints())
+def prints(hey):
+    return hey
