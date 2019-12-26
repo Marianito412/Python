@@ -16,8 +16,11 @@ def SignIn(driver):
 def getGame(driver):
     obtain = driver.find_element_by_class_name("PurchaseButton-button_0fd80531")
     obtain.click()
-    time.sleep(1)
-    purchase = driver.find_element_by_class_name("btn-primary")
+    time.sleep(3)
+    try:
+        purchase = driver.find_element_by_class_name("btn-primary")
+    except:
+        purchase = driver.find_element_by_class_name("confirm-container")
     purchase.click()
 
 def findGame(driver):
@@ -31,4 +34,5 @@ if __name__ == "__main__":
     SignIn(driver)
     time.sleep(10)
     findGame(driver)
+    time.sleep(3)
     getGame(driver)

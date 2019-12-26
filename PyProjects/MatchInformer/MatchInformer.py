@@ -7,7 +7,7 @@ driver = webdriver.Chrome()
 driver.get('https://www.google.com/?gws_rd=ssl')
 #DO google search for match
 def Lookup():
-    Match = "arsenal vs liverpool"#input("Enter the name of tha match: ")
+    Match = "leicester city vs liverpool"#input("Enter the name of tha match: ")
     searchbox = driver.find_element_by_css_selector(".gLFyf.gsfi")  #gLFyf gsfi
     searchbox.click()
     searchbox.send_keys(Match)
@@ -31,7 +31,11 @@ def scores():
     score2 = driver.find_element_by_class_name("imso_mh__r-tm-sc").text
     return score1 + "-" + score2
 Stats = driver.find_elements_by_class_name("MzWkAb")
-league = driver.find_element_by_class_name("imso_mh__pst-m-stts-l").text
+try:
+    league = driver.find_element_by_class_name("imso_mh__pst-m-stts-l").text
+except:
+    print("league not found")
+    league = "League not found"
 
 #String handling and beautifying
 message = """"""+'{:#^25}'.format(league)
