@@ -10,7 +10,10 @@ count = int(input('Enter the amount of shots : '))
 input('Scan the QR code and confirm ')
 input("Ready, standing by for confirmation ")
 
-search = driver.find_element_by_xpath('//input[@title = "Search or start new chat"]')
+try:
+    search = driver.find_element_by_xpath('//input[@title = "Search or start new chat"]')
+except:
+    search = driver.find_element_by_xpath('//input[@title = "Buscar o empezar un chat nuevo"]')
 search.send_keys(name)
 user = driver.find_element_by_xpath('//span[@title = "{}"][@dir = "auto"]'.format(name))
 user.click()

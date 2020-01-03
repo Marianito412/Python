@@ -10,8 +10,8 @@ password = "you get the idea"
 def SignIn(driver):
     driver.get(url)
     time.sleep(5)
-    driver.find_element_by_id("email").send_keys("jmarianosot@gmail.com")
-    driver.find_element_by_id("password").send_keys("holasoymariano412\n")
+    driver.find_element_by_id("email").send_keys(email)
+    driver.find_element_by_id("password").send_keys(password + "\n")
 
 def getGame(driver):
     obtain = driver.find_element_by_class_name("PurchaseButton-button_0fd80531")

@@ -2,10 +2,9 @@ import speech_recognition as sr
 r = sr.Recognizer()
 
 with sr.Microphone() as source:
+    input("ready?")
     print("Speak Anything :")
-    r.adjust_for_ambient_noise(source)
-    audio = r.listen(source, timeout=5, phrase_time_limit=5)
-    r.adjust_for_ambient_noise(source)
+    audio = r.listen(source)
     try:
         text = r.recognize_google(source)
         print("You said : {}".format(text))

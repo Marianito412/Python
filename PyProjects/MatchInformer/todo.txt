@@ -1,5 +1,0 @@
-Match Informer Stuff to do:
-    1. Grab requested match info from google using Selenium
-        1.1. Compose message with relevant info
-    2. Request person to inform on match
-    3. Send message to that person through whatsapp-spammer.py
