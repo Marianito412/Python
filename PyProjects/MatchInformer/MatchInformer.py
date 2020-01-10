@@ -44,4 +44,4 @@ for stat in Stats:
     message = message + "\n"+ '{:#^25}'.format(stat.text)
 print(message)
 driver.close()
-WhatsappSpammer.StartWhatsapp("+506 8481 8014", message)
+WhatsappSpammer.StartWhatsapp("Contact", message)
