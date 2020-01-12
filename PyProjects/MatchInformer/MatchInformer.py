@@ -2,7 +2,9 @@ from selenium import webdriver
 import pandas as pd
 import WhatsappSpammer
 import time
+from notify_run import Notify
 
+notify = Notify()
 driver = webdriver.Chrome()
 driver.get('https://www.google.com/?gws_rd=ssl')
 #DO google search for match
@@ -21,6 +23,7 @@ def Lookup():
         table.click()
 Lookup()
 time.sleep(1)
+url = driver.current_url
 def teams():
     team1 = driver.find_element_by_class_name("imso_mh__first-tn-ed").text
     team2 = driver.find_element_by_class_name("imso_mh__second-tn-ed").text
@@ -38,10 +41,11 @@ except:
     league = "League not found"
 
 #String handling and beautifying
-message = """"""+'{:#^25}'.format(league)
-message = message + "\n" +'{:#^25}'.format(teams()) + "\n" + '{:#^25}'.format(scores())
+message = """"""+'{: <25}'.format(league)
+message = message + "\n" +'{: <25}'.format(teams()) + "\n" + '{: <25}'.format(scores())
 for stat in Stats:
-    message = message + "\n"+ '{:#^25}'.format(stat.text)
+    message = message + "\n"+ '{: <25}'.format(stat.text)
 print(message)
 driver.close()
-WhatsappSpammer.StartWhatsapp("Contact", message)
+notify.send(message, url)
+#WhatsappSpammer.StartWhatsapp("Contact", message)
