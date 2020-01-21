@@ -14,10 +14,7 @@ uClient.close()
 
 #Google Calendar Shit
 
-
 #Gmail Shit
 mail = driver.find_element_by_class_name("bog")
-
-    
 
 #The Symphony

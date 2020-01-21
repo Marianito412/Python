@@ -128,7 +128,7 @@ extensions_folders = {
     '.xlsx' : "/Users/kalle/Desktop/kalle/Text/Microsoft/Excel",
 }
 folder_to_track = "/Users/Personal/Desktop/Sorter"
-folder_destination = "/Users/Personal/Desktop/TestDestination"
+#folder_destination = "/Users/Personal/Desktop/TestDestination"
 event_handler = Hello()
 observer = Observer()
 observer.schedule(event_handler, folder_to_track, recursive=True)
