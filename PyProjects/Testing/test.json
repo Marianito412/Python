@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Computer science",
+        "Days": ["Tuesday", "Thursday"],
+        "hours": "7:30 \n11:20",
+        "Teacher": "Nikola Eisntein",
+        "Assignments": "Homework \nExam \nSomething else"
+    },
+    {
+        "name": "Physics",
+        "Days": ["Tuesday", "Thursday"],
+        "hours": "7:30 \n11:20",
+        "Teacher": "Nikola Eisntein",
+        "Assignments": "Homework \nLab \nReport"
+    }
+]
