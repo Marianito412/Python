@@ -1,16 +1,18 @@
 [
     {
         "name": "Computer \nscience",
-        "Days": ["Tuesday", "Thursday"],
+        "classroom": "I Don't know",
+        "days": ["Tuesday", "Thursday"],
         "hours": "7:30 \n11:20",
-        "Teacher": "Nikola Eisntein",
-        "Assignments": "Homework \nExam \nSomething else"
+        "teacher": "Nikola Eisntein",
+        "assignments": "Homework \nExam \nSomething else"
     },
     {
         "name": "Physics",
-        "Days": ["Tuesday", "Thursday"],
+        "classroom":"Something else",
+        "days": ["Tuesday", "Thursday"],
         "hours": "7:30 \n11:20",
-        "Teacher": "Nikola Eisntein",
-        "Assignments": "Homework \nLab \nReport"
+        "teacher": "Nikola Eisntein",
+        "assignments": "Homework \nLab \nReport"
     }
 ]
