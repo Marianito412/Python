@@ -9,3 +9,4 @@ for course in data["Classes"]:
     print("_______________________________")
 with open("new_test.json", "w") as f:
     json.dump(data, f, indent=2)
+
