@@ -1,0 +1,5 @@
+[5372:11956:0222/185923.534:ERROR:wmi_refresher.cc(129)] Unable to add the Win32_PerfRawData_PerfDisk_PhysicalDisk enum.
+[5372:7496:0222/190001.926:INFO:CONSOLE(2)] "Application Cache API use is deprecated and will be removed in M82, around April 2020. See https://www.chromestatus.com/features/6192449487634432 for more details.", source: https://web.whatsapp.com/app.a6bc2c573f664d4f1feb.js (2)
+[5372:7496:0222/190039.007:INFO:CONSOLE(2)] "Application Cache API use is deprecated and will be removed in M82, around April 2020. See https://www.chromestatus.com/features/6192449487634432 for more details.", source: https://web.whatsapp.com/app.a6bc2c573f664d4f1feb.js (2)
+[5372:7496:0222/190042.467:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[5372:7496:0222/190042.467:WARNING:pref_notifier_impl.cc(40)] Pref observer for browser.relaunch_notification_period found at shutdown.

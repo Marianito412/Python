@@ -1,6 +1,11 @@
 from selenium import webdriver
 
-driver = webdriver.Chrome()
+#driver = webdriver.Chrome()
+#driver.get('https://web.whatsapp.com/')
+
+options = webdriver.ChromeOptions()
+options.add_argument('--user-data-dir=./User_Data')
+driver = webdriver.Chrome(chrome_options=options)
 driver.get('https://web.whatsapp.com/')
 
 name = input('Enter the name of the target : ')
