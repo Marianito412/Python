@@ -9,4 +9,4 @@ uClient.close()
 
 #html parser
 page_soup = soup(page_html, "html.parser")
-print(page_soup)
+print(page_soup.get("li"))

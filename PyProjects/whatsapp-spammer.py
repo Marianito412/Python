@@ -4,7 +4,7 @@ from selenium import webdriver
 #driver.get('https://web.whatsapp.com/')
 
 options = webdriver.ChromeOptions()
-options.add_argument('--user-data-dir=./User_Data')
+options.add_argument('--user-data-dir=C:/Users/Mariano/Desktop/Mariano/Projects/Workspace/Chrome profiles/User_Data_Whatsapp_spammer')
 driver = webdriver.Chrome(chrome_options=options)
 driver.get('https://web.whatsapp.com/')
 
