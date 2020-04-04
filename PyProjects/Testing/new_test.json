@@ -1,37 +1,24 @@
-{
-  "student": "Mariano",
-  "Classes": [
-    {
-      "name": "Computer science",
-      "Days": [
-        "Tuesday",
-        "Thursday"
-      ],
-      "HourIntervals": [
-        "7:30 / 11:20",
-        "a"
-      ],
-      "Assignments": [
-        "Homework",
-        "Exam",
-        "Something else"
-      ]
-    },
-    {
-      "name": "Computer sci",
-      "Days": [
-        "Tuesday",
-        "Thursday"
-      ],
-      "HourIntervals": [
-        "7:30 / 11:20",
-        "a"
-      ],
-      "Assignments": [
-        "Homework",
-        "Exam",
-        "Something else"
-      ]
-    }
-  ]
-}
+[
+  {
+    "name": "Computer \nscience",
+    "classroom": "I Don't know",
+    "days": [
+      "Tuesday",
+      "Thursday"
+    ],
+    "hours": "7:30 \n11:20",
+    "teacher": "Nikola Eisntein",
+    "assignments": "Homework \nExam \nSomething else"
+  },
+  {
+    "name": "Physics",
+    "classroom": "Something else",
+    "days": [
+      "Tuesday",
+      "Thursday"
+    ],
+    "hours": "7:30 \n11:20",
+    "teacher": "Nikola Eisntein",
+    "assignments": "Homework \nLab \nReport"
+  }
+]
