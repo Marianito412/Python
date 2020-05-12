@@ -15,7 +15,8 @@ def triangle(angles):
             else:
                 type = "acute"
     print(type)
-triangle(angles)
+if __name__ == "__main__":
+    triangle(angles)
             
 
         

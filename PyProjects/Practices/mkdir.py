@@ -1,23 +1,23 @@
 import os
-from selenium import webdriver
-import time
+site = """SEMESTRE 1 202
+  ELEMENTOS DE COMPUTACION GR 7
+  APRECIACION DE CINE GR 3
+  CALCULO Y ALGEBRA LINEAL GR 8
+  DIBUJO TECNICO GR 3
+  FISICA GENERAL II GR 7
+  INTR. TEC. CIENCIA Y TECNOLOGIA GR 12
+  LABORATORIO FISICA GENERAL II GR 11
+  COMUNICACION ESCRITA GR 25"""
 
-driver = webdriver.Chrome()
-driver.get("https://tecdigital.tec.ac.cr/dotlrn/courses")
-
-driver.find_element_by_name("username").send_keys("2020142918")
-driver.find_element_by_name("password").send_keys("holasoymariano")
-driver.find_element_by_name("formbutton:style").click()
-#driver.find_element_by_partial_link_text("/dotlrn/courses").click()
-time.sleep(5)
-course_list = driver.find_element_by_class_name("portlet")
-courses = course_list.find_elements_by_tag_name("li")
+courses = site.split("\n")
+semester = courses[0]
+courses.pop(0)
+for place, course in enumerate(courses):
+    course = course.strip()
+    courses[place] = course
+path = "C:/Users/Mariano/Desktop/Mariano/Documents"
+os.mkdir(path + "/" + semester)
 for course in courses:
-    print(course.text)
-
-
-#courses = ["Apreciacion de cine", "Comunicación escrita", "Dibujo técnico", "Elementos de computación", "Física general II", "Intr ciencia y tecnología", "Lab Física II", "Algebra Lineal"]
-#for course in courses:
-#    course_path = path + "/" + course
-#    os.mkdir(course_path)
-#    print("creating directory {}".format(course_path))
+    course_path = path + "/" + semester + "/" + course
+    os.mkdir(course_path)
+    print("creating directory {}".format(course_path))
