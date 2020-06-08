@@ -1,12 +1,13 @@
 import speech_recognition as sr
 r = sr.Recognizer()
+mic = sr.Microphone(device_index=1)
 
-with sr.Microphone() as source:
-    input("ready?")
-    print("Speak Anything :")
+a = sr.Microphone.list_microphone_names()
+for i in a:
+    print(i, a.index(i))
+with mic as source:
+    r.adjust_for_ambient_noise(source)
     audio = r.listen(source)
-    try:
-        text = r.recognize_google(source)
-        print("You said : {}".format(text))
-    except:
-        print("Sorry could not recognize what you said")
+
+j = r.recognize_google(audio)
+print(j)

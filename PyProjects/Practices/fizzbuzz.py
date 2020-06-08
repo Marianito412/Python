@@ -4,6 +4,7 @@
 #print(["fizz" if x%3  == 0 else ("buzz" if x%5==0 else str(x)) for x in range(100)])
 def fizzbuzz:
     return for i in range(101): print("fizz"*(i%3==0)+"buzz"*(i%5==0) or str(i))
+
 def fizzbuzz_plusplus(nums, words):
   l = []
   result = 1
@@ -13,6 +14,7 @@ def fizzbuzz_plusplus(nums, words):
       for j in range(len(nums)): term = str(term).strip(str(i))+words[j] if i%nums[j] == 0 else term
       l.append(term)
   return l
+  
 if __name__ == "__main__":
     for i in fizzbuzz_plusplus([3,5,7], ["fizz", "buzz", "jizz"]):
         print(i)
