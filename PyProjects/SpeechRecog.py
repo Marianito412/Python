@@ -1,4 +1,7 @@
 import speech_recognition as sr
+import pyttsx3
+engine = pyttsx3.init()
+
 r = sr.Recognizer()
 mic = sr.Microphone(device_index=1)
 
@@ -10,4 +13,5 @@ with mic as source:
     audio = r.listen(source)
 
 j = r.recognize_google(audio)
-print(j)
+engine.say(j)
+engine.runAndWait()
