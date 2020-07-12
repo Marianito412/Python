@@ -1,0 +1,21 @@
+{
+    "courses": {
+        "Index": 0,
+        "ApC": "/Users/Mariano/Desktop/Mariano/Documents/SEMESTRE 1 2020/APRECIACION DE CINE GR 3",
+        "Cal": "/Users/Mariano/Desktop/Mariano/Documents/SEMESTRE 1 2020/CALCULO Y ALGEBRA LINEAL GR 8",
+        "ComE": "/Users/Mariano/Desktop/Mariano/Documents/SEMESTRE 1 2020/COMUNICACION ESCRITA GR 25",
+        "DT": "/Users/Mariano/Desktop/Mariano/Documents/SEMESTRE 1 2020/DIBUJO TECNICO GR 3",
+        "EC": "/Users/Mariano/Desktop/Mariano/Documents/SEMESTRE 1 2020/ELEMENTOS DE COMPUTACION GR 7",
+        "FG2": "/Users/Mariano/Desktop/Mariano/Documents/SEMESTRE 1 2020/FISICA GENERAL II GR 7",
+        "Intr": "/Users/Mariano/Desktop/Mariano/Documents/SEMESTRE 1 2020/INTR. TEC. CIENCIA Y TECNOLOGIA GR 12",
+        "LFG2": "/Users/Mariano/Desktop/Mariano/Documents/SEMESTRE 1 2020/LABORATORIO FISICA GENERAL II GR 11"
+    },
+    "types": {
+        "Index": 1,
+        "Homework": "/Homework",
+        "Exam": "/Exam",
+        "Quiz": "/Quiz",
+        "Classwork": "/Classwork",
+        "Textbook": "/Textbooks"
+    }
+}
