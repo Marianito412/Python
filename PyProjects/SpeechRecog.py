@@ -12,6 +12,7 @@ with mic as source:
     r.adjust_for_ambient_noise(source)
     audio = r.listen(source)
 
+engine.say("Hello world")
 j = r.recognize_google(audio)
 engine.say(j)
 engine.runAndWait()
