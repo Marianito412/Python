@@ -2,7 +2,7 @@
     #result = "fizz" if i%3 == 0 else str(i)
     #print(result.strip(str(i)) +"buzz" if i%5 == 0 else result)
 #print(["fizz" if x%3  == 0 else ("buzz" if x%5==0 else str(x)) for x in range(100)])
-def fizzbuzz:
+def fizzbuzz():
     return for i in range(101): print("fizz"*(i%3==0)+"buzz"*(i%5==0) or str(i))
 
 def fizzbuzz_plusplus(nums, words):
