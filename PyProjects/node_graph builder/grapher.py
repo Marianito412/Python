@@ -27,12 +27,14 @@ def showGraph(G):
     plt.savefig("simple_path.png")
     plt.show()
 
+lista_cursos = []
+
 for bloque in bloques:
     nombre = bloque.find("h2", class_="accordion-topic")
     cursos = bloque.find_all("div", class_="accordion-item")
     for curso in cursos:
         codigo, nombre = curso.find_all("h3", class_="accordion-title")[0].text.split(" - ")
-        print(f"{codigo} - {nombre}")
+        
         subinfo = curso.find("div", class_="accordion-body").table.tbody
         subinfo = subinfo.find_all("tr")[1]
 
@@ -47,8 +49,14 @@ for bloque in bloques:
                 edge = (codigo, requisito)
                 makeEdge(G, edge)
 
+        print(f"{codigo} - {nombre}")
         print(f"Créditos: {creditos} Horas: {horas} Requisitos: {requisitos} Correquisitos: {correquisitos}")
         print("_"*150)
         makeNode(G, codigo)
+        lista_cursos.append(f"{codigo} - {nombre} Créditos: {creditos} Horas: {horas} Requisitos: {requisitos} Correquisitos: {correquisitos}\n")
+    lista_cursos.append("_"*150+"\n")
+with open("Cursos.txt", "w") as f:
+    f.writelines(lista_cursos)
+
 print(G.nodes())
 showGraph(G)

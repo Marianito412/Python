@@ -1,0 +1,79 @@
+CI0205 - PRUEBA AVANZADA INGLES Créditos: 0 Horas: 0 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MA0101 - MATEMATICA GENERAL Créditos: 2 Horas: 5 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+______________________________________________________________________________________________________________________________________________________
+CA2125 - ELEMENTOS DE COMPUTACION Créditos: 3 Horas: 4 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+CI1106 - COMUNICACION ESCRITA Créditos: 2 Horas: 3 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: CS1502
+CS1502 - INTR. TEC. CIENCIA Y TECNOLOGIA Créditos: 1 Horas: 2 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: CI1106
+FI1101 - FISICA GENERAL I Créditos: 3 Horas: 4 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: MA1102
+FI1201 - LABORATORIO FISICA GENERAL I Créditos: 1 Horas: 2 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: FI1101
+MA1102 - CALCULO DIFERENCIAL E INTEGRAL Créditos: 4 Horas: 5 Requisitos: MA0101 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+QU1102 - LABORATORIO DE QUIMICA BASICA I Créditos: 1 Horas: 2 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: QU1106
+QU1106 - QUIMICA BASICA I Créditos: 3 Horas: 4 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: QU1102
+SE1100 - ACTIVIDAD CULTURAL I Créditos: 0 Horas: 2 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+______________________________________________________________________________________________________________________________________________________
+CA3125 - ANALISIS Y DISEÑO DE ALGORITMOS Créditos: 3 Horas: 4 Requisitos: CA2125 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+CI1107 - COMUNICACION ORAL Créditos: 1 Horas: 3 Requisitos: CI1106 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+CS2101 - AMBIENTE HUMANO Créditos: 2 Horas: 3 Requisitos: CS1502 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+FH1000 - CENTROS DE FORMACION HUMANISTICA Créditos: 0 Horas: 2 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+FI1102 - FISICA GENERAL II Créditos: 3 Horas: 4 Requisitos: FI1101, FI1201, MA1102 Correquisitos: FI1202
+FI1202 - LABORATORIO FISICA GENERAL II Créditos: 1 Horas: 2 Requisitos: FI1201 Correquisitos: FI1102
+MA1103 - CALCULO Y ALGEBRA LINEAL Créditos: 4 Horas: 4 Requisitos: MA1102 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MT2001 - CIRCUITOS ELECTRICOS EN CC Y CA Créditos: 3 Horas: 4 Requisitos: MA1102 Correquisitos: MT2002
+MT2002 - LABORATORIO DE CIRCUITOS CC Y CA Créditos: 1 Horas: 2 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: MT2001
+SE1200 - ACTIVIDAD DEPORTIVA I Créditos: 0 Horas: 2 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+______________________________________________________________________________________________________________________________________________________
+FI2103 - FISICA GENERAL III Créditos: 3 Horas: 4 Requisitos: FI1101, MA1102 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MA2104 - CALCULO SUPERIOR Créditos: 4 Horas: 4 Requisitos: MA1103 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MI2101 - DIBUJO TECNICO Créditos: 3 Horas: 4 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MT3001 - ELECTRONICA ANALOGICA Créditos: 3 Horas: 4 Requisitos: MT2001 Correquisitos: MT3002
+MT3002 - LABORATORIO DE ELECTRONICA ANALOGICA Créditos: 1 Horas: 2 Requisitos: MT2001 Correquisitos: MA2104, MT3001
+MT3003 - MAQUINAS ELECTRICAS PARA MECATRONICA Créditos: 3 Horas: 4 Requisitos: FI1102, MT2001 Correquisitos: MT3004
+MT3004 - LABORATORIO DE MAQUINAS ELECTRICAS PARA MECATRONICA Créditos: 1 Horas: 4 Requisitos: FI1102 Correquisitos: MT3003
+______________________________________________________________________________________________________________________________________________________
+MA2105 - ECUACIONES DIFERENCIALES Créditos: 4 Horas: 4 Requisitos: MA1103 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+ME3208 - TECNOLOGIA DE MATERIALES Créditos: 2 Horas: 3 Requisitos: MI2101 Correquisitos: ME3209
+ME3209 - LABORAT DE TECNOLOGIA DE MATERIALES Créditos: 1 Horas: 2 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: ME3208
+MI2106 - ESTATICA Créditos: 3 Horas: 4 Requisitos: FI1101, MI2101 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MI3103 - PROCESOS DE MANUFACTURA Créditos: 3 Horas: 3 Requisitos: MI2101 Correquisitos: MI3104
+MI3104 - LAB. PROCESOS DE MANUFACTURA Créditos: 2 Horas: 4 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: MI3103
+MT4001 - ELECTRONICA DIGITAL Créditos: 3 Horas: 4 Requisitos: CA3125, MT3001 Correquisitos: MT4002
+MT4002 - LABORATORIO ELECTRONICA DIGITAL Créditos: 1 Horas: 2 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: MT4001
+SE1400 - ACTIVIDAD CULTURAL-DEPORTIVA Créditos: 0 Horas: 2 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+______________________________________________________________________________________________________________________________________________________
+CI3202 - INGLES PARA MECATRONICA Créditos: 1 Horas: 3 Requisitos: CI0205 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+CS3401 - SEMINARIO DE ESTUDIOS FILOSOFICOS HISTORICOS Créditos: 2 Horas: 3 Requisitos: CS2101 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MI3115 - RESISTENCIA DE MATERIALES Créditos: 3 Horas: 4 Requisitos: MI2106 Correquisitos: ME3208
+MI3117 - DINAMICA Créditos: 3 Horas: 4 Requisitos: MI2106 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MT5002 - MODELOS DE SISTEMAS PARA MECATRONICA Créditos: 3 Horas: 4 Requisitos: MA2105, MT4001 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MT5003 - ELECTRONICA DE POTENCIA APLICADA Créditos: 4 Horas: 12 Requisitos: MT3003 Correquisitos: MT5004
+MT5004 - LABORATORIO DE ELECTRONICA DE POTENCIA APLICADA Créditos: 2 Horas: 10 Requisitos: MT3004 Correquisitos: MT5003
+______________________________________________________________________________________________________________________________________________________
+CM3207 - METODOS NUMERICOS PARA INGENIERIA Créditos: 3 Horas: 4 Requisitos: MT5002 Correquisitos: MT6001
+CS4402 - SEMINARIO DE ESTUDIOS COSTARRICENSES Créditos: 2 Horas: 3 Requisitos: CS3401, FH1000 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MI3124 - DIBUJO INDUSTRIAL Créditos: 4 Horas: 4 Requisitos: MI3103 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MT6001 - PROBABILIDAD Y PROCESOS ESTOCASTICOS Créditos: 3 Horas: 3 Requisitos: MA2105, MT5002 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MT6002 - TERMOFLUIDOS Créditos: 4 Horas: 4 Requisitos: MI3117 Correquisitos: MT6003
+MT6003 - LABORATORIO DE TERMOFLUIDOS Créditos: 1 Horas: 2 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: MT6002
+______________________________________________________________________________________________________________________________________________________
+MT7001 - ANALISIS Y SIMULACION DE SISTEMAS Créditos: 3 Horas: 4 Requisitos: MT5002 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MT7002 - SENSORES Y ACTUADORES Créditos: 3 Horas: 4 Requisitos: MT4001 Correquisitos: MT7001
+MT7003 - MICROPROCESADORES Y MICROCONTROLADORES Créditos: 3 Horas: 4 Requisitos: MT5003 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MT7004 - NEUMATICA Y OLEOHIDRAULICA Créditos: 3 Horas: 4 Requisitos: MT6002 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MT7006 - DISEÑO MAQUINAS Y MECANISMOS Créditos: 4 Horas: 4 Requisitos: MI3115, MI3124 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+SO4604 - SEGURIDAD Y SALUD OCUPACIONAL Créditos: 3 Horas: 3 Requisitos: MT6001 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+______________________________________________________________________________________________________________________________________________________
+AE4208 - DESARROLLO DE EMPRENDEDORES Créditos: 4 Horas: 4 Requisitos: SO4604 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MT8001 - TEORIA DE COMUNICACION Y PROCESAMIENTO DE SEÑALES Créditos: 3 Horas: 3 Requisitos: MT7001 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MT8002 - AUTOMATIZACION Y REDES INDUSTRIALES Créditos: 3 Horas: 4 Requisitos: MT7002 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MT8003 - SISTEMAS DE MANUFACTURA Créditos: 4 Horas: 5 Requisitos: MI3103 Correquisitos: MT8002
+MT8004 - ELECTIVA Créditos: 4 Horas: 4 Requisitos: MT7003 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+______________________________________________________________________________________________________________________________________________________
+EL5408 - CONTROL AUTOMATICO Créditos: 4 Horas: 4 Requisitos: MT7001 Correquisitos: EL5409
+EL5409 - LABORATORIO DE CONTROL AUTOMATICO Créditos: 2 Horas: 4 Requisitos: NO HAY REQUISITOS EN EL PLAN Correquisitos: EL5408
+MT7005 - FORMULACION DE PROYECTOS Créditos: 2 Horas: 4 Requisitos: MT8004 Correquisitos: MT9001
+MT9001 - DISEÑO DE SISTEMAS MECATRONICOS Créditos: 4 Horas: 4 Requisitos: MT8003 Correquisitos: MT9002
+MT9002 - MANTENIMIENTO DE SISTEMAS MECATRONICOS Créditos: 4 Horas: 4 Requisitos: MT8003 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+______________________________________________________________________________________________________________________________________________________
+MT9003 - PROYECTO FINAL DE GRADUACION Créditos: 10 Horas: 20 Requisitos: AE4208, EL5408, EL5409, MT9001, MT9002 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+MT9004 - ELECTIVA II Créditos: 4 Horas: 4 Requisitos: MT8004 Correquisitos: NO HAY CORREQUISITOS EN EL PLAN
+______________________________________________________________________________________________________________________________________________________
