@@ -3,7 +3,7 @@ from time import sleep
 from threading import Thread
 
 # This script is meant to automate the boring process of flying the Opressor MkII in GTA Online
-# Press shift+i to toggle the automatic flying
+# Press shift+i to toggle the automatic flight
 
 def boost():
     release("ctrl+shift")
@@ -23,7 +23,7 @@ def autofly():
             press("shift")
             sleep(1.5)
             release("shift")
-            
+
             if i%2==0:
                 boost()
                 sleep(2)
@@ -36,7 +36,6 @@ def killTask():
     print("Killed" if kill else "Running")
 
 if __name__ == "__main__":
-
     kill = True
     fly = Thread(target=autofly)
     fly.start()

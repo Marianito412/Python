@@ -1,6 +1,6 @@
 # Python Projects
 
-This is my Python repo. It contains some personal projects that i have build over the years
+This is my Python repo. It contains some personal projects that I have build over the years
 
 ## Installation
 
@@ -15,4 +15,4 @@ Note: if selenium is one of the used libraries you will have to download a web d
 
 ## Contribution
 
-I don't know why you would contribute to this mess of a repo, but i appreaciate it. Pull requests are, of course, welcome. If you want to submit a whole project or a major overhaul, open an Issue to allow for conversation over the commit.
+I don't know why you would contribute to this mess of a repo, but I appreciate it. Pull requests are, of course, welcome. If you want to submit a whole project or a major overhaul, open an Issue to allow for conversation over the commit.

@@ -51,4 +51,6 @@ def Game():
         board = aiTurn(board)
         print(playerMoves)
         print(aiMoves)
-Game()
+        
+if __name__ == '__main__':
+    Game()
